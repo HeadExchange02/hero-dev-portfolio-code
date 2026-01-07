@@ -29,6 +29,9 @@
 /* main style */
 header {
     background-color: #fff8f3;
+    background: url(../Images/developer.png) , url(../Images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     padding-top: 50px;
 }
 
@@ -47,6 +50,7 @@ nav .menu{
     list-style-type: none;
     gap : 51px;
     align-items: center;
+    font-weight: 600;
 }
 
 nav .menu a {
@@ -115,12 +119,13 @@ nav .menu a:hover {
     /* display: flex; */
     
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     color: white;
     background-color: #ff7d1a;
     border: none;
     padding: 10px 10px;
     border-radius: 10px;
     font-size: 17px;
+    cursor: pointer;
 }
     
