@@ -64,9 +64,61 @@ nav .menu a:hover {
     color: #fff8f3;
     background-color: #ff7d1a;
     border: none;
-    padding: 18px 35px;
+    padding: 15px 30px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
+
+.btn{
+    color: #fff8f3;
+    background-color: #ff7d1a;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    cursor: pointer;
+}
+
+/* Banner section */
+#banner{
+    /* border: 1px solid blue; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#banner .banner-content h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+    max-width: 500px;
+}
+    
