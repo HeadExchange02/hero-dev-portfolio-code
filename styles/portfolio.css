@@ -36,8 +36,8 @@ header {
 }
 
 nav {
-    width: 65%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 1600px;
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
@@ -115,6 +115,11 @@ nav .menu a:hover {
     max-width: 500px;
 }
 
+#banner .banner-image img {
+    width: 585px;
+    vertical-align: middle;
+}
+
 .btn-banner {
     /* display: flex; */
     
@@ -129,3 +134,54 @@ nav .menu a:hover {
     cursor: pointer;
 }
     
+
+
+/* About Me section */
+#about {
+    padding-top: 160px;
+}
+
+#about .about-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 160px;
+}
+
+
+.section-heading{
+    max-width: 1200px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 30px;
+    color: #474747;
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
