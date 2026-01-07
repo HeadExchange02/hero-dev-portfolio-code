@@ -125,8 +125,7 @@ nav .menu a:hover {
 }
 
 .btn-banner {
-    /* display: flex; */
-    
+    width: 200px;
     align-items: center;
     gap: 15px;
     color: white;
@@ -156,6 +155,7 @@ nav .menu a:hover {
 
 
 .section-heading{
+    font-size: 40px;
     width: 85%;
     max-width: 1200px;
     text-align: center;
@@ -240,14 +240,17 @@ nav .menu a:hover {
 /* Resume section */
 #resume {
     padding-top: 160px;
+    justify-content: center;
+    
 }
 
 #resume .resume-container{
     width: 85%;
     max-width: 1200px;
-    margin: 115 auto 0;
+    margin: auto;
     display: flex;
     gap: 25px;
+    padding-top: 103px;
 }
 
 #resume .resume-container .section-title{
@@ -283,4 +286,29 @@ nav .menu a:hover {
     color: #757575;
 }
 
+/* Download CV Button */
+/* #resume .btn-download-cv {
+    margin: 50px 700px 0px 900px;
+    border: none;
+    background-color: #ff7d1a;
+    padding: 10px ;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+} */
 
+.btn-download-cv .btn{
+    color: #fff8f3;
+    background-color: #ff7d1a;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+.btn:hover {
+    background-color: #e66c00;
+}
